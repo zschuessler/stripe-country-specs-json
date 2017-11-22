@@ -1,0 +1,1175 @@
+[
+  {
+    "value": "AT",
+    "label": "Austria",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.additional_owners",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_address.city",
+          "legal_entity.personal_address.line1",
+          "legal_entity.personal_address.postal_code",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "AU",
+    "label": "Australia",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.address.state",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.address.state",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "BE",
+    "label": "Belgium",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.additional_owners",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_address.city",
+          "legal_entity.personal_address.line1",
+          "legal_entity.personal_address.postal_code",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "CA",
+    "label": "Canada",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.address.state",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_id_number",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.address.state",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_id_number",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "CH",
+    "label": "Switzerland",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.additional_owners",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_address.city",
+          "legal_entity.personal_address.line1",
+          "legal_entity.personal_address.postal_code",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "DE",
+    "label": "Germany",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.additional_owners",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_address.city",
+          "legal_entity.personal_address.line1",
+          "legal_entity.personal_address.postal_code",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "DK",
+    "label": "Denmark",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.additional_owners",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_address.city",
+          "legal_entity.personal_address.line1",
+          "legal_entity.personal_address.postal_code",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "ES",
+    "label": "Spain",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.additional_owners",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_address.city",
+          "legal_entity.personal_address.line1",
+          "legal_entity.personal_address.postal_code",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "FI",
+    "label": "Finland",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.additional_owners",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_address.city",
+          "legal_entity.personal_address.line1",
+          "legal_entity.personal_address.postal_code",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "FR",
+    "label": "France",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.additional_owners",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_address.city",
+          "legal_entity.personal_address.line1",
+          "legal_entity.personal_address.postal_code",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "GB",
+    "label": "United Kingdom",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.additional_owners",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_address.city",
+          "legal_entity.personal_address.line1",
+          "legal_entity.personal_address.postal_code",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "HK",
+    "label": "Hong Kong",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_id_number",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_address.city",
+          "legal_entity.personal_address.line1",
+          "legal_entity.personal_id_number",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "IE",
+    "label": "Ireland",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.state",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.additional_owners",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.state",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_address.city",
+          "legal_entity.personal_address.line1",
+          "legal_entity.personal_address.state",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "IT",
+    "label": "Italy",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.additional_owners",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_address.city",
+          "legal_entity.personal_address.line1",
+          "legal_entity.personal_address.postal_code",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "JP",
+    "label": "Japan",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address_kana.city",
+          "legal_entity.address_kana.line1",
+          "legal_entity.address_kana.postal_code",
+          "legal_entity.address_kana.state",
+          "legal_entity.address_kana.town",
+          "legal_entity.address_kanji.city",
+          "legal_entity.address_kanji.line1",
+          "legal_entity.address_kanji.postal_code",
+          "legal_entity.address_kanji.state",
+          "legal_entity.address_kanji.town",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name_kana",
+          "legal_entity.first_name_kanji",
+          "legal_entity.gender",
+          "legal_entity.last_name_kana",
+          "legal_entity.last_name_kanji",
+          "legal_entity.phone_number",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address_kana.city",
+          "legal_entity.address_kana.line1",
+          "legal_entity.address_kana.postal_code",
+          "legal_entity.address_kana.state",
+          "legal_entity.address_kana.town",
+          "legal_entity.address_kanji.city",
+          "legal_entity.address_kanji.line1",
+          "legal_entity.address_kanji.postal_code",
+          "legal_entity.address_kanji.state",
+          "legal_entity.address_kanji.town",
+          "legal_entity.business_name",
+          "legal_entity.business_name_kana",
+          "legal_entity.business_name_kanji",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name_kana",
+          "legal_entity.first_name_kanji",
+          "legal_entity.gender",
+          "legal_entity.last_name_kana",
+          "legal_entity.last_name_kanji",
+          "legal_entity.personal_address_kana.city",
+          "legal_entity.personal_address_kana.line1",
+          "legal_entity.personal_address_kana.postal_code",
+          "legal_entity.personal_address_kana.state",
+          "legal_entity.personal_address_kana.town",
+          "legal_entity.personal_address_kanji.city",
+          "legal_entity.personal_address_kanji.line1",
+          "legal_entity.personal_address_kanji.postal_code",
+          "legal_entity.personal_address_kanji.state",
+          "legal_entity.personal_address_kanji.town",
+          "legal_entity.phone_number",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "LU",
+    "label": "Luxembourg",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.additional_owners",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_address.city",
+          "legal_entity.personal_address.line1",
+          "legal_entity.personal_address.postal_code",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "NL",
+    "label": "Netherlands",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.additional_owners",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_address.city",
+          "legal_entity.personal_address.line1",
+          "legal_entity.personal_address.postal_code",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "NO",
+    "label": "Norway",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.additional_owners",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_address.city",
+          "legal_entity.personal_address.line1",
+          "legal_entity.personal_address.postal_code",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "NZ",
+    "label": "New Zealand",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "PT",
+    "label": "Portugal",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.additional_owners",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_address.city",
+          "legal_entity.personal_address.line1",
+          "legal_entity.personal_address.postal_code",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "SE",
+    "label": "Sweden",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.additional_owners",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_address.city",
+          "legal_entity.personal_address.line1",
+          "legal_entity.personal_address.postal_code",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "SG",
+    "label": "Singapore",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_id_number",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.additional_owners",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.personal_address.line1",
+          "legal_entity.personal_address.postal_code",
+          "legal_entity.personal_id_number",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  },
+  {
+    "value": "US",
+    "label": "United States of America",
+    "requiredFields": {
+      "individual": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.address.state",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.ssn_last_4",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.personal_id_number",
+          "legal_entity.verification.document"
+        ]
+      },
+      "company": {
+        "minimum": [
+          "external_account",
+          "legal_entity.address.city",
+          "legal_entity.address.line1",
+          "legal_entity.address.postal_code",
+          "legal_entity.address.state",
+          "legal_entity.business_name",
+          "legal_entity.business_tax_id",
+          "legal_entity.dob.day",
+          "legal_entity.dob.month",
+          "legal_entity.dob.year",
+          "legal_entity.first_name",
+          "legal_entity.last_name",
+          "legal_entity.ssn_last_4",
+          "legal_entity.type",
+          "tos_acceptance.date",
+          "tos_acceptance.ip"
+        ],
+        "additional": [
+          "legal_entity.personal_id_number",
+          "legal_entity.verification.document"
+        ]
+      }
+    }
+  }
+]

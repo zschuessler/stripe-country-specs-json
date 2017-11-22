@@ -6,21 +6,26 @@ Stripe Connect Custom? Sure, we've all been there at some point in our life.
 
 This repository is a direct dump of the country spec for all supported countries, in JSON format.
 
+
+
 Each folder in this repository represents a new update and is named by date.
 
 Description of files:
 
-1. default.json - A direct dump of all Country Spec objects in JSON format, untouched and pure.
-2. default.min.json - Same as above, but minified.
-3. with-country-label.json - Each Country Spec object now has a "label" attribute, which lists the country name.
-4. with-country-label.min.json - Same as above, but minified.
+File | Description
+------------ | -------------
+[default.json](2017-11-22/default.json) | A direct dump of all Country Spec objects in JSON format, untouched and pure.
+[default-labeled.json](2017-11-22/default-labeled.json) | A direct dump of all Country Spec objects, plus an extra `label` attribute which indicates country name.
+[required-fields.json](2017-11-22/required-fields.json) | A dump of only requirements - useful for building frontend components based on country requirements.
 
-Tip: These JSON files are large. If you intend on serving them client-side, consider removing as much data as possible
+Each file has a `.min` version, in which the JSON has been minified but otherwise unchanged.
+
+**Tip:** These JSON files are large. If you intend on serving them client-side, consider removing as much data as possible
 to lower the total download size.
 
 ## Prefer a CSV File Dump?
 
-The above page lists out the requirements in a nice table, and offers a 
+The requirements page lists out the requirements in a nice table, and also offers a 
 [CSV file](https://stripe.com/files/connect/Stripe_Connect_Custom_Identity_Verification.csv) as well.
 
 ## Prefer API Access?
