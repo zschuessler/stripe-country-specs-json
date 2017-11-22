@@ -12,12 +12,14 @@ Each folder in this repository represents a new update and is named by date.
 
 Description of files:
 
-1. `default.json` - A direct dump of all Country Spec objects in JSON format, untouched and pure.
-2. `default.min.json` - Same as above, but minified.
-3. `with-country-label.json` - Each Country Spec object now has a "label" attribute, which lists the country name.
-4. `with-country-label.min.json` - Same as above, but minified.
+File | Description
+------------ | -------------
+`default.json` | A direct dump of all Country Spec objects in JSON format, untouched and pure.
+`with-country-label.json` | Each Country Spec object now has a `label` attribute, which lists the country name.
 
-Tip: These JSON files are large. If you intend on serving them client-side, consider removing as much data as possible
+Each file has a `.min` version, in which the JSON has been minified but otherwise unchanged.
+
+**Tip:** These JSON files are large. If you intend on serving them client-side, consider removing as much data as possible
 to lower the total download size.
 
 ## Prefer a CSV File Dump?
